@@ -8,7 +8,7 @@ NGS VCF file comparison(diff) script
 ### Results
 The utility will generate below listed file in **/_Comparison_results_** directory
 + countSum.txt
-+ *_common.txt
++ <file1>_<file2>_common.txt
 + <file1>_exclusive.txt
 + <file2>_exclusive.txt
 
