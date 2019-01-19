@@ -3,7 +3,7 @@ NGS VCF file comparison(diff) script
 
 ## Usage
 
->perl compare_cmdline.pl -F1 <id>folder or file path<id> -F2 <folder or file path> -D <optional destination directory>
+>perl compare_cmdline.pl -F1 `<id>`folder or file path`<id>` -F2 <folder or file path> -D <optional destination directory>
 
 If -D is not specified then current working directory will be used as destination. -D will create folder with name “Comparison_results” at the destination location in which the result files will be generated.
 Also, make sure that the “Comparison_results” is not already present in the destination directory otherwise it will fail.
